@@ -1,0 +1,105 @@
+---
+title: "Create Question Set"
+description: "Superadmin guide to creating and managing question sets."
+---
+
+# Create Question Set
+
+A **Question Set** is a full test package containing duration, marks, instructions, pricing, and attached questions. After creation, it can be assigned to any school.
+
+**Navigation:**\
+**Assessments → Sets → Add Set**\
+(or use the orange **ADD SET** button on the Sets List page)
+
+---
+
+## 1. Sets List
+
+![Sets List Overview](/set_list.PNG)
+
+From this screen you can:
+
+- Search sets by name or exam type
+- View all active/inactive sets
+- Click **ADD SET** to create a new one
+
+---
+
+## 2. Creating / Editing a Question Set
+
+![Edit Set Form](/set_update.PNG)
+
+![Set Instructions Editor](/set_update2.PNG)
+
+### Form Fields
+
+| Field                | Required | Description                                    |
+| -------------------- | -------- | ---------------------------------------------- |
+| **Set Status**       | Yes      | Active = visible to schools; Inactive = hidden |
+| **Set Name**         | Yes      | Unique test name shown to schools              |
+| **Timing (minutes)** | Yes      | Total duration of the test                     |
+| **Marks**            | Yes      | Total marks for scoring                        |
+| **Exam Type**        | Yes      | Category (Psychometric, DMIT, IQ, etc.)        |
+| **Product Lead**     | Yes      | Usually same as Exam Type                      |
+| **Test Amount**      | Yes      | Price the student pays                         |
+| **Start Exam URL**   | Yes      | Leave default unless instructed                |
+| **Set Instructions** | Yes      | Instructions shown before the test             |
+
+### Sample Instructions (copy-paste ready)
+
+> Dear Candidate,\
+> This test helps identify your strengths and preferences.\
+> • Answer honestly — no right or wrong\
+> • No negative marking\
+> • You cannot revisit questions\
+> • Complete in one sitting
+
+Click **SAVE CHANGES** when done.
+
+---
+
+## 3. Upload Questions
+
+After saving the set → go to **Upload Question**.
+
+![Upload Questions Page](/upload_questions_and_answer_in_set.PNG)
+
+### Options to Add Questions
+
+| Method           | Best For                       | Steps                           |
+| ---------------- | ------------------------------ | ------------------------------- |
+| **CSV Upload**   | Large question banks           | Download sample → Fill → Upload |
+| **Manual Entry** | Small edits / single questions | Click **ADD QUESTION**          |
+
+### CSV Required Columns
+
+`question_no	domain,subdomain,exam,question format,question type,media type,media path,text,q_time,Q_m_time,option format,option text 1,option marks 1,option media path 1,option media type,option format,option text 2,option marks 2,option media path 2,option media type,option format,option text 3,option marks 3,option media path 3,option media type,option format,option text 4,option marks 4,option media path 4,option media type,option format,option text 5,option marks 5,option media path 5,option media type`
+
+---
+
+## 4. Preview Student View
+
+Click **Preview** from the Sets list.
+
+![Student Test Preview](/previews.PNG)
+
+You can check:
+
+- Instructions page
+- Test interface (MCQ / Likert)
+- Timer
+- Mobile layout
+
+**Always preview before assigning a set.**
+
+---
+
+## 5. Manage Questions
+
+Go to **Assessments → Questions → View All**
+
+![Question List](/questions_list.PNG)
+
+From here you can search, update, delete, preview, or export questions.
+
+**Done!** Your question set is now ready to be assigned to schools.
