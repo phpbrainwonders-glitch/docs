@@ -1,73 +1,147 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mint Starter Kit",
+  "name": "Brainwonders Platform Docs",
   "colors": {
     "primary": "#16A34A",
     "light": "#07C983",
     "dark": "#15803D"
   },
   "favicon": "/favicon.svg",
+
   "navigation": {
     "tabs": [
       {
         "tab": "Guides",
         "groups": [
           {
-            "group": "Getting started",
+            "group": "Introduction",
             "pages": [
               "index",
-              "quickstart",
-              "development"
+              "quickstart"
+            ]
+          },
+
+          {
+            "group": "Superadmin",
+            "pages": [
+              "personas/superadmin/overview",
+              "personas/superadmin/create-school",
+              "personas/superadmin/assign-test",
+              "personas/superadmin/student-approval",
+              "personas/superadmin/coupon-approval",
+              "personas/superadmin/test-builder",
+              "personas/superadmin/create-exam",
+              "personas/superadmin/question-set",
+              "personas/superadmin/domain-management",
+              "personas/superadmin/answer-key",
+              "personas/superadmin/settings"
+            ]
+          },
+
+          {
+            "group": "School Admin — Registration",
+            "pages": [
+              "personas/school/registration-overview",
+              "personas/school/form-fields",
+              "personas/school/form-title",
+              "personas/school/copy-registration-url"
             ]
           },
           {
-            "group": "Customization",
+            "group": "School Admin — Test Settings",
             "pages": [
-              "essentials/settings",
-              "essentials/navigation"
+              "personas/school/test-settings-overview",
+              "personas/school/payment-settings",
+              "personas/school/redirect-control",
+              "personas/school/communication-control"
             ]
           },
           {
-            "group": "Writing content",
+            "group": "School Admin — Report Settings",
             "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
+              "personas/school/report-settings-overview",
+              "personas/school/header-logos",
+              "personas/school/cover-page",
+              "personas/school/about-chairman",
+              "personas/school/about-school",
+              "personas/school/footer-settings"
             ]
           },
           {
-            "group": "AI tools",
+            "group": "School Admin — Operations",
             "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "API reference",
-        "groups": [
-          {
-            "group": "API documentation",
-            "pages": [
-              "api-reference/introduction"
+              "personas/school/raise-coupon-request",
+              "personas/school/student-test-link-request",
+              "personas/school/copy-export-test-link",
+              "personas/school/export-student-status",
+              "personas/school/view-report"
             ]
           },
+
           {
-            "group": "Endpoint examples",
+            "group": "User / Student",
             "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
+              "personas/user/overview",
+              "personas/user/enter-url",
+              "personas/user/registration",
+              "personas/user/payment",
+              "personas/user/instructions",
+              "personas/user/test-page",
+              "personas/user/thank-you",
+              "personas/user/redirection",
+              "personas/user/report-page",
+              "personas/user/emails"
+            ]
+          },
+
+          {
+            "group": "Test Builder",
+            "pages": [
+              "superadmin/test-builder/overview",
+              "superadmin/test-builder/exam-builder",
+              "superadmin/test-builder/set-builder",
+              "superadmin/test-builder/domain-builder",
+              "superadmin/test-builder/subdomain-builder",
+              "superadmin/test-builder/question-builder",
+              "superadmin/test-builder/answer-key-builder"
+            ]
+          },
+
+          {
+            "group": "Communication",
+            "pages": [
+              "communication/overview",
+              "communication/email-templates",
+              "communication/sms-templates",
+              "communication/sending-logic"
+            ]
+          },
+
+          {
+            "group": "Platform",
+            "pages": [
+              "platform/architecture",
+              "platform/roles",
+              "platform/api-overview",
+              "platform/webhooks"
+            ]
+          },
+
+          {
+            "group": "Examples & Best Practices",
+            "pages": [
+              "examples/superadmin-workflow",
+              "examples/school-admin-workflow",
+              "examples/user-journey-example",
+              "examples/report-branding-examples",
+              "examples/troubleshooting"
             ]
           }
         ]
       }
     ],
+
     "global": {
       "anchors": [
         {
@@ -83,40 +157,44 @@
       ]
     }
   },
+
   "logo": {
     "light": "/logo/light.svg",
     "dark": "/logo/dark.svg"
   },
+
   "navbar": {
     "links": [
       {
         "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "href": "mailto:support@yourdomain.com"
       }
     ],
     "primary": {
       "type": "button",
       "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
+      "href": "https://dashboard.yoursaas.com"
     }
   },
+
   "contextual": {
     "options": [
-     "copy",
-     "view",
-     "chatgpt",
-     "claude",
-     "perplexity",
-     "mcp",
-     "cursor",
-     "vscode"
-   ]
+      "copy",
+      "view",
+      "chatgpt",
+      "claude",
+      "perplexity",
+      "mcp",
+      "cursor",
+      "vscode"
+    ]
   },
+
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "x": "https://x.com/yourcompany",
+      "github": "https://github.com/yourcompany",
+      "linkedin": "https://linkedin.com/company/yourcompany"
     }
   }
 }
