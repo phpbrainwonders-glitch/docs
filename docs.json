@@ -40,37 +40,6 @@
               "personas/admin/report",
               "personas/admin/test"
             ]
-          },
-
-          {
-            "group": "Communication",
-            "pages": [
-              "communication/overview",
-              "communication/email-templates",
-              "communication/sms-templates",
-              "communication/sending-logic"
-            ]
-          },
-
-          {
-            "group": "Platform",
-            "pages": [
-              "platform/architecture",
-              "platform/roles",
-              "platform/api-overview",
-              "platform/webhooks"
-            ]
-          },
-
-          {
-            "group": "Examples & Best Practices",
-            "pages": [
-              "examples/superadmin-workflow",
-              "examples/school-admin-workflow",
-              "examples/user-journey-example",
-              "examples/report-branding-examples",
-              "examples/troubleshooting"
-            ]
           }
         ]
       }
