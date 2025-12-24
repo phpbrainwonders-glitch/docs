@@ -40,6 +40,15 @@
               "personas/admin/report",
               "personas/admin/test"
             ]
+          },
+
+          {
+            "group": "Aviva Project",
+            "pages": [
+              "personas/aviva/register",
+              "personas/aviva/Admin",
+              "personas/aviva/profile"
+            ]
           }
         ]
       }

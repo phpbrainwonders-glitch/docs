@@ -1,0 +1,114 @@
+---
+title: "Registration Page Overview"
+description: "What the student or parent sees — fully customizable registration form, branding, and flow."
+---
+
+# Registration Page (Student View)
+
+This is the **public-facing registration page** where students (or parents) enter their details before starting the test.
+
+**Example URLs:**
+- `https://test.brainwonders.in/your-registration-slug`
+- `https://aviva.aptitudetest.in`
+- `https://test.brainwonders.in/prany-brainwonders`
+
+The entire look, form fields, title, and branding are **100% controlled by the School Admin**.
+
+![Registration Page – Top Section](/aviva_reg.png)
+![Registration Page – Form Fields](/aviva_reg2.png)
+
+---
+
+## What Students See
+
+### Header & Branding
+
+- School / client logo (e.g., **AVIVA** logo on the left)
+- Brainwonders logo and tagline on the right
+- Custom banner image or background
+- Test title (example: **Career Aptitude Test**)
+- Custom subtitle  
+  _“Paving the way for your child’s further education and suitable career”_
+
+---
+
+### Registration Form
+
+A clean, mobile-friendly form with customizable fields.
+
+#### Common Fields  
+*(All fields can be made compulsory or optional by School Admin)*
+
+| Field | Required by Default | Notes |
+|------|---------------------|------|
+| Name of the Child | Yes | |
+| Parent's Name | Yes | |
+| Gender of the Child | Yes | Male / Female |
+| Child's Date of Birth | Yes | Date picker |
+| Parent's Date of Birth | Yes | |
+| Parent's Contact Number | Yes | Mobile number |
+| Parent's Email ID | Yes | Used for test & report emails |
+| Preferred Report Language | Yes | English / हिंदी (or others) |
+| **Coupon Code / Advisor Code** | Optional | Label depends on school setup |
+| reCAPTCHA | Yes | Prevents spam registrations |
+
+🔴 **Red asterisk (*)** indicates compulsory fields (configured by School Admin).
+
+---
+
+## After Submission Flow
+
+1. **If payment is enabled**  
+   → Redirects to **Payment Page**
+
+2. **If test is free or coupon applied**  
+   → **Instructions Page**  
+   → **Test Page**
+
+📧 Automated emails (based on Test Settings):
+- Test link email
+- Report link email (after test completion)
+
+---
+
+## How School Admins Customize This Page
+
+All customization is managed from the admin dashboard.
+
+### Students → Registration Form Setting
+- Change registration title & description
+- Add / remove / reorder form fields
+- Set fields as compulsory or optional
+- Upload banner image & logos
+- Enable coupon field (Coupon Code / Advisor Code)
+- Configure payment or free registration
+
+### Test → Test Settings
+- Define the public URL slug
+- Customize instructions shown after registration
+- Control redirects after test completion
+- Configure email sending (CC / BCC)
+
+👉 [Form Fields Customization →](/personas/admin/form-fields)  
+👉 [Test Settings →](/personas/admin/test-setting)
+
+---
+
+## Tips for Best Experience
+
+- Use a **short, readable URL slug**  
+  (example: `aviva-career-test`)
+- Keep only **essential fields mandatory**
+- Use clear, parent-friendly language
+- Test the flow on **mobile and desktop**
+- If using coupons, clearly instruct parents to enter the **Advisor Code**
+
+---
+
+## Next: Student Journey
+
+- [Payment Page →](/personas/user/payment)
+- [Instructions & Test Page →](/personas/user/test-page)
+- [Thank You & Report Page →](/personas/user/report-page)
+
+This page is your school’s **digital front door** — make it welcoming and professional.
