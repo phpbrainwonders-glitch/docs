@@ -27,84 +27,18 @@
             "pages": [
               "personas/superadmin/overview",
               "personas/superadmin/create-school",
-              "personas/superadmin/assign-test",
-              "personas/superadmin/student-approval",
-              "personas/superadmin/coupon-approval",
-              "personas/superadmin/test-builder",
-              "personas/superadmin/create-exam",
-              "personas/superadmin/question-set",
-              "personas/superadmin/domain-management",
-              "personas/superadmin/answer-key",
-              "personas/superadmin/settings"
+              "personas/superadmin/coupon-approval"
             ]
           },
 
           {
-            "group": "School Admin — Registration",
+            "group": "School Admin",
             "pages": [
-              "personas/school/registration-overview",
-              "personas/school/form-fields",
-              "personas/school/form-title",
-              "personas/school/copy-registration-url"
-            ]
-          },
-          {
-            "group": "School Admin — Test Settings",
-            "pages": [
-              "personas/school/test-settings-overview",
-              "personas/school/payment-settings",
-              "personas/school/redirect-control",
-              "personas/school/communication-control"
-            ]
-          },
-          {
-            "group": "School Admin — Report Settings",
-            "pages": [
-              "personas/school/report-settings-overview",
-              "personas/school/header-logos",
-              "personas/school/cover-page",
-              "personas/school/about-chairman",
-              "personas/school/about-school",
-              "personas/school/footer-settings"
-            ]
-          },
-          {
-            "group": "School Admin — Operations",
-            "pages": [
-              "personas/school/raise-coupon-request",
-              "personas/school/student-test-link-request",
-              "personas/school/copy-export-test-link",
-              "personas/school/export-student-status",
-              "personas/school/view-report"
-            ]
-          },
-
-          {
-            "group": "User / Student",
-            "pages": [
-              "personas/user/overview",
-              "personas/user/enter-url",
-              "personas/user/registration",
-              "personas/user/payment",
-              "personas/user/instructions",
-              "personas/user/test-page",
-              "personas/user/thank-you",
-              "personas/user/redirection",
-              "personas/user/report-page",
-              "personas/user/emails"
-            ]
-          },
-
-          {
-            "group": "Test Builder",
-            "pages": [
-              "superadmin/test-builder/overview",
-              "superadmin/test-builder/exam-builder",
-              "superadmin/test-builder/set-builder",
-              "superadmin/test-builder/domain-builder",
-              "superadmin/test-builder/subdomain-builder",
-              "superadmin/test-builder/question-builder",
-              "superadmin/test-builder/answer-key-builder"
+              "personas/admin/overview",
+              "personas/admin/index",
+              "personas/admin/student",
+              "personas/admin/report",
+              "personas/admin/test"
             ]
           },
 
